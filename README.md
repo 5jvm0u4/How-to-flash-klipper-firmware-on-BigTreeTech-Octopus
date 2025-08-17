@@ -4,12 +4,12 @@ Instruction for flashing klipper firmware onto BTT Octopus via DFU mode.
 ## Setup
 ### For this guide, you'll need the following: ###
 
- - BTT Octopus
- - Host computer that has your klipper on it
+ - BTT Octopus V1.0 (**NOT** BTT Octopus Pro V1.1)
+ - Your klipper host computer (usually a RPI).
  - High quality USB Type-A to Type-C cable.
  - Two 0.1" pitch jumper
 
-## Instruction
+## Instructions
 ### Reference
 **For flashing firmware:**  
 https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master/Octopus%20works%20on%20Voron%20v2.4/Firmware/Klipper  
