@@ -17,7 +17,7 @@ https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master/Octopus%20wo
 https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master
 
 ### Compile firmware
-Open PuTTY, or Powershell after 2018/01/10, SSH into your host
+Open PuTTY, or PowerShell after 2018/01/10, SSH into your host
 
     cd ~/klipper 
     make menuconfig
