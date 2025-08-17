@@ -13,8 +13,8 @@ Instruction for flashing klipper firmware onto BTT Octopus via DFU mode.
 ### Reference
 **For flashing firmware:**  
 https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master/Octopus%20works%20on%20Voron%20v2.4/Firmware/Klipper  
-**For updating firmware:**
-https://docs.vorondesign.com/build/software/installing_mainsail.html
+**For updating firmware:**  
+https://docs.vorondesign.com/build/software/installing_mainsail.html  
 **For other stuffs:**  
 https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master
 
