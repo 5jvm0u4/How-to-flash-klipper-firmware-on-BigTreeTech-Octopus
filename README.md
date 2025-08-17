@@ -1,4 +1,4 @@
-# How-to-flash-klipper-firmware-on-BigTreeTech-Octopus
+# How-to-flash-klipper-firmware-on-BigTreeTech-Octopus-V1.0
 Instruction for flashing klipper firmware onto BTT Octopus via DFU mode.
 
 ## Setup
