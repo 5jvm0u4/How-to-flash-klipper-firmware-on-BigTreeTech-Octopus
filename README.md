@@ -43,7 +43,7 @@ Connect the A to C cable from host to BTT Octopus, find the ID for your BTT Octo
 
 Image credit: [Klipper Installation *NO SD CARD* PART 2, (DFU MODE)](https://youtu.be/NkSNBOTtZ6g?si=veryoF8daVonJYZ4)  
 
-Flash the firmware, replace with your ID
+Flash the firmware with this commend, replace the placeholder with your ID
 
     make flash FLASH_DEVICE=XXXX:XXXX
 
