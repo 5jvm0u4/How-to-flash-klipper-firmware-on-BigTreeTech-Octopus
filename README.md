@@ -13,6 +13,8 @@ Instruction for flashing klipper firmware onto BTT Octopus via DFU mode.
 ### Reference
 **For flashing firmware:**  
 https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master/Octopus%20works%20on%20Voron%20v2.4/Firmware/Klipper  
+**For updating firmware:**
+https://docs.vorondesign.com/build/software/installing_mainsail.html
 **For other stuffs:**  
 https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master
 
@@ -58,6 +60,7 @@ Copy that and paste it in your printer.cfg as so:
     serial: /dev/serial/by-id/usb-Klipper_stm32f446xx_XXXXXXXXXXXXXXXXXXXXXXXX-if00
 
 Find reference printer.cfg for BTT Octopus [here](https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/blob/master/Octopus%20works%20on%20Voron%20v2.4/Firmware/Klipper/BTT_OctoPus_Voron2_Config.cfg). 
+For future updating your firmware, visit [Firmware Updates](https://docs.vorondesign.com/build/software/octopus_klipper.html#firmware-updates)
 Happy printing.
 
 
