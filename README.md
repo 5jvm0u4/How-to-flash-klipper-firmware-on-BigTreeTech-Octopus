@@ -60,7 +60,21 @@ Copy that and paste it in your printer.cfg as so:
     serial: /dev/serial/by-id/usb-Klipper_stm32f446xx_XXXXXXXXXXXXXXXXXXXXXXXX-if00
 
 Find reference printer.cfg for BTT Octopus [here](https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/blob/master/Octopus%20works%20on%20Voron%20v2.4/Firmware/Klipper/BTT_OctoPus_Voron2_Config.cfg).  
-For future updating your firmware, visit [Firmware Updates](https://docs.vorondesign.com/build/software/octopus_klipper.html#firmware-updates).  
+For future updating your firmware, visit [Firmware Updates](https://docs.vorondesign.com/build/software/octopus_klipper.html#firmware-updates), or do this:  
+
+    cd ~/klipper 
+    make menuconfig
+<img width="600" alt="octopus_f446_klipper_menuconfig" src="https://github.com/user-attachments/assets/dbb4b4a6-08f6-4ea4-8f8a-18f928370ba7" />  
+
+<pre>Q(Quit)
+Y(Yes)</pre>
+    make clean
+    make
+    sudo service klipper stop
+    cd ~/klipper
+    make flash FLASH_DEVICE=/dev/serial/by-id/usb-Klipper_stm32f446xx_XXXXXXXXXXXXXXXXXXXXXXXX-if00
+    sudo service klipper start
+
 Happy printing.
 
 
