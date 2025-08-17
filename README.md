@@ -52,6 +52,14 @@ Unplug your BTT Octopus, remove jumper from J75(BOOT0), and reconnect it to your
     ls /dev/serial/by-id
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/0a169810-3c59-4167-8bf3-bd38918f5b31" />
 
+Copy that and paste it in your printer.cfg as so:
+
+    [mcu]
+    serial: /dev/serial/by-id/usb-Klipper_stm32f446xx_XXXXXXXXXXXXXXXXXXXXXXXX-if00
+
+Find reference printer.cfg for BTT Octopus [here](https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/blob/master/Octopus%20works%20on%20Voron%20v2.4/Firmware/Klipper/BTT_OctoPus_Voron2_Config.cfg). 
+Happy printing.
+
 
 
 
