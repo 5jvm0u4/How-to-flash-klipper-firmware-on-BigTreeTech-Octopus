@@ -36,9 +36,10 @@ Y(Yes)</pre>
 
 ### Enableing DFU mode
 Disconnect all peripherals from your BTT Octopus, install jumper on J75(BOOT0) and J68(V_Bus_USBC).  
-<img width="800" alt="octopus_pinout" src="https://github.com/user-attachments/assets/544924b4-5281-45a1-aa7d-26993cfd7183" />  
+<img width="800" alt="478787745-544924b4-5281-45a1-aa7d-26993cfd7183" src="https://github.com/user-attachments/assets/612bd681-6a7e-439b-a4f7-d02999f63740" />
 
-Connect the A to C cable from host to BTT Octopus, find the ID for your BTT Octopus by running this commend, look for "STMicroelectronics STM Device in DFU Mode"  
+
+Connect the A to C cable from host to BTT Octopus, **Hit reset** on BTT Ocpotus which is next to Type-C connector, find the ID for your BTT Octopus by running this commend, look for "STMicroelectronics STM Device in DFU Mode"  
 
     lsusb
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/42805ae0-653d-4c84-a904-48a028467a36" />  
