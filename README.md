@@ -19,7 +19,11 @@ https://docs.vorondesign.com/build/software/installing_mainsail.html
 https://github.com/bigtreetech/BIGTREETECH-OCTOPUS-V1.0/tree/master
 
 ### Compile firmware
-Open PuTTY, or PowerShell after 2018/01/10, SSH into your host
+Open PowerShell, SSH into your host:  
+
+    ssh username@raspberrypi.local
+
+Enter your credential, once in,  
 
     cd ~/klipper 
     make menuconfig
