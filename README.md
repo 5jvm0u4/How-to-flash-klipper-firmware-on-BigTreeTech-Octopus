@@ -34,6 +34,10 @@ Y(Yes)</pre>
     make clean
     make
 
+You should see something like this:  
+<img width="600" alt="螢幕擷取畫面 2025-08-18 194845" src="https://github.com/user-attachments/assets/6be64fa1-10f0-4902-b0d1-bb85088cd959" />
+
+
 ### Enableing DFU mode
 Disconnect all peripherals from your BTT Octopus, install jumper on J75(BOOT0) and J68(V_Bus_USBC).  
 <img width="800" alt="478787745-544924b4-5281-45a1-aa7d-26993cfd7183" src="https://github.com/user-attachments/assets/612bd681-6a7e-439b-a4f7-d02999f63740" />
@@ -49,6 +53,9 @@ Image credit: [Klipper Installation *NO SD CARD* PART 2, (DFU MODE)](https://you
 Flash the firmware with this commend, replace the placeholder with your ID
 
     make flash FLASH_DEVICE=XXXX:XXXX
+
+If succeed, you should see something like this, you can ignore that error 255 as long as you have "File downloaded successfully".  
+<img width="600" alt="螢幕擷取畫面 2025-08-18 194926" src="https://github.com/user-attachments/assets/7ab94e2b-cc0d-4fd6-8e39-ff92be6de3b3" />
 
 Unplug your BTT Octopus, remove jumper from J75(BOOT0), and reconnect it to your host, run this to find your klipper device ID, should look like this.
 
